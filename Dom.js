@@ -1,3 +1,4 @@
+/*
 //Tarea 1 -- Ejercicios DOM
 
 //Numero de enlaces de la pagina
@@ -35,3 +36,19 @@ const arrayTercerParrafoEnlaces = [...tercerParrafoEnlaces];
 const mostrarEnlacesPenultimo = document.createElement("h3");
 mostrarEnlacesPenultimo.textContent = `El tercer parrafo tiene ${arrayTercerParrafoEnlaces.length} enlaces`;
 referencia.appendChild(mostrarEnlacesPenultimo);
+*/
+
+/*
+//Tarea 2 -- Ejercicio DOM
+
+const referencia = document.querySelector("#root");
+const header = document.createElement("header");
+const h1Header = document.createElement("h1");
+h1Header.className = "bg-danger";
+h1Header.textContent = "Rompe Seven";
+const heroSection = document.createElement("div");
+heroSection.className = "hero-section";
+const image = document.createElement("img");
+image.src = "./gallardo.jpg";
+referencia.append(header, h1Header, heroSection, image);
+*/
