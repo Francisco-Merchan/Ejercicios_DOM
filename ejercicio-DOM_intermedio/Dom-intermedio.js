@@ -1,4 +1,4 @@
-// Ejercicio 1
+// // Ejercicio 1
 // const parrafo = document.querySelector("p");
 // let textoParrafo = parrafo.textContent;
 // let arrayTexto = textoParrafo.split(".");
